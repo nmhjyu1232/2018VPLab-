@@ -1,0 +1,8 @@
+¤U¸üFLIP
+http://www.microchip.com/developmenttools/ProductDetails/PartNo/flip
+
+Arduino ©xºô¸ÑÄÀ
+https://www.arduino.cc/en/Hacking/DFUProgramming8U2
+
+Cooper Maa
+http://coopermaa2nd.blogspot.com/2011/11/atmega8u2-arduino-uno-ftdi-usb-to.html

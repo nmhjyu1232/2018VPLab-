@@ -1,0 +1,32 @@
+<<Arduino keyboard 相關程式撰寫流程>>
+
+1.撰寫 Arduino 程式燒錄進 MCU
+2.把 Arduino 切到 DFU mode
+3.用 'FLIP流程-燒錄 Arduino keyboard 韌體' 把 Arduino-keyboard-0.3.hex 燒錄到 atmega16u2 晶片上，
+4.重新插拔 Arduino 的電源
+
+*完成
+
+<<FLIP流程-燒錄 Arduino keyboard 韌體>>
+1.進入 DFU mode
+2.開啟 FLIP
+3.點選 "Select a Target Device" 選擇 ATmaga16u2 
+4.點選 "Select a Communication Medium" ，選擇 "USB"
+5.File->Load HEX File...
+6.開啟 文件/Arduino/Arduino-keyboard/Arduino-keyboard-0.3.hex
+7.點選 "Run"
+8.點選 "Start Application"
+
+*完成
+
+<<FLIP流程-燒錄 Arduino usbserial 韌體>>
+1.進入 DFU mode
+2.開啟 FLIP
+3.點選 "Select a Target Device" 選擇 ATmaga16u2 
+4.點選 "Select a Communication Medium" ，選擇 "USB"
+5.File->Load HEX File...
+6.開啟 C:\Program Files (x86)\Arduino\hardware\arduino\avr\firmwares\atmegaxxu2\arduino-usbserial\Arduino-usbserial-atmega16u2-Uno-Rev3.hex
+7.點選 "Run"
+8.點選 "Start Application"
+
+*完成
